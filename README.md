@@ -121,7 +121,3 @@ See `docs/biological_insights.md` for a richer interpretation tied directly to t
 
 - Dataset: [PRJNA184040](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA184040)
 - Tools: FastQC, fastp, HISAT2, samtools, featureCounts (Subread), edgeR.
-
-## License
-
-MIT – see [LICENSE](LICENSE).
