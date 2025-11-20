@@ -169,3 +169,22 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+# Nextflow cache
+
+# Data & reference downloads
+
+# Conda environments
+
+
+# Nextflow cache
+work/
+.nextflow*
+
+# Data & reference downloads
+data/
+results/
+metadata/fastq_checksums.txt
+
+# Conda environments
+work/conda/
+conda_envs/

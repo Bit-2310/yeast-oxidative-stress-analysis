@@ -4,9 +4,9 @@
 # Author: Pranav
 # Usage: ./fastp.sh
 
-# Directories
-DATA_DIR="/home/bit/project/yeast_stress/data"
-OUTPUT_DIR="/home/bit/project/yeast_stress/results/trimmed"
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+DATA_DIR="${ROOT_DIR}/data"
+OUTPUT_DIR="${ROOT_DIR}/results/trimmed"
 
 # Create output directory if it doesn't exist
 mkdir -p "$OUTPUT_DIR"

@@ -3,10 +3,10 @@
 # Script to align trimmed single-end reads using HISAT2
 # Usage: ./hisat2.sh
 
-# Directories
-DATA_DIR="/home/bit/project/yeast_stress/results/trimmed"
-OUTPUT_DIR="/home/bit/project/yeast_stress/results/alignment"
-GENOME_INDEX="/home/bit/project/yeast_stress/data/genome/sacCer3"
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+DATA_DIR="${ROOT_DIR}/results/trimmed"
+OUTPUT_DIR="${ROOT_DIR}/results/alignment"
+GENOME_INDEX="${ROOT_DIR}/data/genome/sacCer3"
 
 # Create output directory if it doesn't exist
 mkdir -p "$OUTPUT_DIR"

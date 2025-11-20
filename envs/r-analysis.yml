@@ -1,0 +1,13 @@
+name: r-analysis
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - r-base=4.3.2
+  - bioconductor-edger
+  - r-ggplot2
+  - r-dplyr
+  - r-ggrepel
+  - r-pheatmap
+  - r-rcolorbrewer
+  - r-data.table

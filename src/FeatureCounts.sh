@@ -3,10 +3,10 @@
 # Script to run FeatureCounts on aligned BAM files
 # Usage: ./FeatureCounts.sh
 
-# Directories
-ALIGN_DIR="/home/bit/project/yeast_stress/results/alignment"
-OUTPUT_DIR="/home/bit/project/yeast_stress/results/counts"
-GTF_FILE="/home/bit/project/yeast_stress/data/Saccharomyces_cerevisiae.R64-1-1.59.gtf"
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+ALIGN_DIR="${ROOT_DIR}/results/alignment"
+OUTPUT_DIR="${ROOT_DIR}/results/counts"
+GTF_FILE="${ROOT_DIR}/data/Saccharomyces_cerevisiae.R64-1-1.gtf"
 
 # Create output directory if it doesn't exist
 mkdir -p "$OUTPUT_DIR"

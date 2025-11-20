@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Install R libraries
-RUN R -e "BiocManager::install(c('edgeR', 'ggplot2', 'dplyr', 'ggrepel'))"
+RUN R -e "BiocManager::install(c('edgeR', 'ggplot2', 'dplyr', 'ggrepel', 'pheatmap', 'RColorBrewer'))"
 
 # Set working directory
 WORKDIR /project

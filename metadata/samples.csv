@@ -1,0 +1,7 @@
+sample_id,condition,fastq
+SRR636633,control,data/SRR636633.fastq.gz
+SRR636634,control,data/SRR636634.fastq.gz
+SRR636635,treated,data/SRR636635.fastq.gz
+SRR636636,treated,data/SRR636636.fastq.gz
+SRR636637,treated,data/SRR636637.fastq.gz
+SRR636638,treated,data/SRR636638.fastq.gz
