@@ -90,6 +90,7 @@ Key outputs (under `results/`):
 - `counts/gene_counts.txt` – matrix consumed by edgeR.
 - `edger/` – CSV summaries, DEG counts, volcano plot, PCA plot, heatmap, `significant_genes.txt`.
 - `edger/visualizations/` – Additional ggplot outputs (MA plot, bar chart of top DEGs) from `src/visualizations.R`.
+- `docs/figures/` – Curated figures (e.g., volcano plot, top-50 heatmap) for quick viewing.
 
 ## Biological Highlights
 
@@ -100,6 +101,12 @@ The current run (SRR636633–SRR636638; control vs H₂O₂-treated) yielded **7
 - **RNA processing repression** – Small nucleolar RNAs (LSR1, snR17b) and ribosome biogenesis factors show coordinated decreases, reflecting the shift from growth to stress survival.
 
 See `docs/biological_insights.md` for a richer interpretation tied directly to the generated DEG tables and plots.
+
+### Gallery Highlights
+
+![Volcano Plot](docs/figures/volcano_plot.png)
+
+![Top 50 Heatmap](docs/figures/top50_heatmap.png)
 
 ## Manual Utilities
 

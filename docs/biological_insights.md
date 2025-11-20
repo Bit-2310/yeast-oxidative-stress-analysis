@@ -25,3 +25,9 @@ These transcripts highlight the detoxification toolkit: glutathione cycling, per
 | YFR032C | **RPL29** | -1.82 | 60S ribosomal protein; decreased abundance mirrors translational slowdown. |
 
 The stress program therefore reallocates energy toward ROS mitigation while throttling mitochondrial respiration and ribosome assembly—an expected trade-off during acute peroxide exposure.
+
+### Visual Summary
+
+![Volcano Plot](figures/volcano_plot.png)
+
+![Top 50 Heatmap](figures/top50_heatmap.png)
