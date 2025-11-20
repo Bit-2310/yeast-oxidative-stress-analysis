@@ -89,6 +89,7 @@ Key outputs (under `results/`):
 - `alignment/` – SAM, sorted BAM, and alignment summaries.
 - `counts/gene_counts.txt` – matrix consumed by edgeR.
 - `edger/` – CSV summaries, DEG counts, volcano plot, PCA plot, heatmap, `significant_genes.txt`.
+- `edger/visualizations/` – Additional ggplot outputs (MA plot, bar chart of top DEGs) from `src/visualizations.R`.
 
 ## Biological Highlights
 
@@ -105,6 +106,7 @@ See `docs/biological_insights.md` for a richer interpretation tied directly to t
 - `src/gene_expression.R` – parameterized edgeR workflow (used in the pipeline).
 - `src/significant_genes.R` – CLI helper for re-filtering DE tables with custom thresholds.
 - `src/convert_id.R` – BioMart-based converter from gene symbols to systematic IDs.
+- `src/visualizations.R` – generates MA plots and top-gene bar charts from `edger_results.csv` for quick gallery additions.
 - Shell helpers (`fastp.sh`, `hisat2.sh`, etc.) remain for quick ad-hoc runs outside Nextflow.
 - Conda environments live in `envs/` and can be materialized with `conda env create -f <env.yml>` if you need to run tools manually.
 
